@@ -15,7 +15,11 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-type ShopSearch = { q?: string; category?: string; sort?: string };
+type ShopSearch = {
+  q?: string | undefined;
+  category?: string | undefined;
+  sort?: string | undefined;
+};
 
 export const Route = createFileRoute("/shop")({
   validateSearch: (search: Record<string, unknown>): ShopSearch => ({
