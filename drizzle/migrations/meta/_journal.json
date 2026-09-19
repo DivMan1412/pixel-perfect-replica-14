@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789822842645,
+      "tag": "0000_himora_core_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789822982870,
+      "tag": "0001_himora_seed_catalog",
+      "breakpoints": true
+    }
+  ]
+}
